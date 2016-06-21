@@ -5,7 +5,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/echo')
 def echo():
     return json.dumps(request.args)
 
