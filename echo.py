@@ -3,6 +3,8 @@ import json
 
 from flask import Flask, request
 
+Flask, request = flask.Flask, flask.request
+
 app = Flask(__name__)
 
 @app.route('/')
