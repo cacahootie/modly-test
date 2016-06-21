@@ -1,4 +1,10 @@
-{
-    "prefix": "hello",
-    "main": "models.app"
-}
+[
+    {
+        "prefix": "hello",
+        "main": "models.app"
+    },
+    {
+        "prefix": "echo",
+        "main": "echo.app"
+    }
+]
