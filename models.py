@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 class HelloWorldView(FlaskView):
     def index(self):
-        return "hello world"
+        return "hello wurld"
 
 
 HelloWorldView.register(app)
